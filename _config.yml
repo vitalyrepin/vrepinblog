@@ -6,6 +6,13 @@ relative_permalinks: true
 
 timezone: Europe/Helsinki
 
+# Facebook settings
+fb_admins:          606660677
+avatar:             "public/images/me_office.png"
+locale:             en_US
+
+#fb_appid:           337414769782635
+
 # Setup
 title:               Vitaly Repin
 tagline:             Sapere aude!
