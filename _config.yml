@@ -8,7 +8,7 @@ timezone: Europe/Helsinki
 
 # Facebook settings
 fb_admins:          606660677
-avatar:             "public/images/me_office.png"
+avatar:             "/public/images/me_hires.png"
 locale:             en_US
 
 #fb_appid:           337414769782635
