@@ -1,0 +1,37 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: "/:title"
+relative_permalinks: true
+
+timezone: Europe/Helsinki
+
+# Setup
+title:               Vitaly Repin
+tagline:             Sapere aude!
+url:                 "http://vrepin.org"
+paginate:            4
+baseurl:             "/vr"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Vitaly Repin
+  url:               https://twitter.com/vitalyrepin
+  email:             vitaly_repin@fsfe.org
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/vitalyrepin/vrepinblog
+
+pages_list:
+  About: '/vr/about/'
+  Feed: '/vr/atom.xml'
+  Hobby projects: '/vr/hobbies/'

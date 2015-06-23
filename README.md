@@ -1,1 +1,5 @@
-# My Blog
+# Blog
+
+My blog. Jekyll-based.
+
+

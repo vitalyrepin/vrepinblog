@@ -1,0 +1,55 @@
+---
+title: Hobby projects
+layout: default
+permalink: hobbies/
+---
+
+== Publishing (LaTeX) ==
+
+- [Wall Calendar generator http://vitalyrepin.github.io/WallCalendar/] Example: ["Four Seasons" calendar, 2015 http://vrepin.org/cal2015/index.html]
+- [The Modern and the Postmodern http://vrepin.org/studies/ModernPostmodern/WebSite/] course album [available for purchase http://www.lulu.com/commerce/index.php?fBuyContent=14103925] using
+POD. [LaTeX sources https://github.com/vitalyrepin/Modern2013/tree/master/CourseAlbum] (mindmaps, timeline diagrams, QR codes, apache htaccess generation etc)
+- [TeX PGF/TikZ fun https://github.com/vitalyrepin/FunnyMathTikz]
+
+
+== Collection of high-quality courses ==
+
+I like MOOCs but I carefully select the MOOCs to participate in.
+I've collected the links to the courses I've got, liked and can recommend to the people who have similar interests as mine.
+
+
+=== Humanities ===
+
+|| Course | Provider / Instructor | My results
+| [Greek and Roman Mythology https://www.coursera.org/course/mythology] | [Peter Struck, PhD http://www.sas.upenn.edu/~struck/],  University of Pennsylvania | [Course record https://www.coursera.org/records/gUETsRYcwpbcCFBj], [Certificate http://vrepin.org/studies/Mythology2013/Courseramythology2013.pdf]
+| [The Modern and the Postmodern https://www.coursera.org/course/modernpostmodern] | [Dr. Michael S. Roth http://www.wesleyan.edu/president/biography/index.html], Wesleyan University | [Course record https://www.coursera.org/records/dQnev9GXaUcdt7j5], [Certificate http://vrepin.org/studies/ModernPostmodern/ModernPostmodern.pdf]
+| [Søren Kierkegaard - Subjectivity, Irony and the Crisis of Modernity https://www.coursera.org/course/kierkegaard] | [Dr. Jon Stewart http://www.jonstewart.dk/side_1.htm], Copenhagen University | [Certificate http://vrepin.org/studies/Kierkegaard/Courserakierkegaard2013.pdf]
+| [Designing Cities https://www.coursera.org/course/designingcities] | [Gary Hack http://www.design.upenn.edu/people/hack_gary], [Jonathan Barnett http://www.design.upenn.edu/people/barnett_jonathan], [Stefan Al http://www.design.upenn.edu/people/al_stefan], University of Pennsylvania | [Certificate http://vrepin.org/studies/CityDesign2013/Courseradesigningcities2013.pdf]
+| [Gamification https://www.coursera.org/course/gamification] | [Kevin Werbach http://werbach.com/about.html], University of Pennsylvania | [Certificate http://vrepin.org/studies/Gamification2014/CourseraGamification2014.pdf]
+| [Introduction to Communication Science https://www.coursera.org/course/commscience] | [Rutger de Graaf, PhD http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/g/r/r.h.degraaf/r.h.de-graaf.html], University of Amsterdam | [Certificate http://vrepin.org/studies/CommScience/CommScience2014.pdf]
+| [Learning How to Learn https://www.coursera.org/learn/learning-how-to-learn] | [Dr. Barbara Oakley http://en.wikipedia.org/wiki/Barbara_Oakley], [Dr. Terrence Sejnowski http://en.wikipedia.org/wiki/Terry_Sejnowski], University of California, San Diego | Grade Achieved: 100.0%
+| [Reason and Persuasion: Thinking Through Three Dialogues By Plato https://www.coursera.org/course/reasonandpersuasion] | [John Holbo, Assoc. Prof. http://profile.nus.edu.sg/fass/phihjc/stf_phihjc.htm], National University of Singapore | [Certificate https://www.coursera.org/account/accomplishments/certificate/QR3YRU2E7Z]
+=== Economics ===
+
+|| Course | Provider / Instructor | My results
+| [Economics of Money and Banking, Part I https://www.coursera.org/course/money] | [Perry G. Mehrling, PhD http://ineteconomics.org/people/perry-g-mehrling], Columbia University | [Certificate  http://vrepin.org/studies/Economics/Money2014_1.pdf]
+| [History of Economic Thought https://www.coursera.org/course/historyofec] | [Vladimir Avtonomov, Dr.Sc http://www.hse.ru/en/org/persons/66214], [Oleg Ananyin, Prof. http://www.hse.ru/en/org/persons/66265], [Natalia Makasheva, Prof. https://www.coursera.org/instructor/~1775] Higher School of Economics | [Course record https://www.coursera.org/records/GmzUUXdtmY7qEXMu], [Certificate http://vrepin.org/studies/HistoryEc2014/HistoryEc.pdf]
+
+=== Software Engineering ===
+
+|| Course | Provider / Instructor | My results
+| [Functional Programming Principles in Scala https://www.coursera.org/course/progfun] | [Martin Odersky http://en.wikipedia.org/wiki/Martin_Odersky], École Polytechnique Fédérale de Lausanne | [Certificate http://vrepin.org/studies/scala/CourseraScala.pdf]
+| [MongoDB for Developers https://university.mongodb.com/courses/M101P/about] | MongoDB University [(10gen) https://university.mongodb.com/] | [Certificate http://education.mongodb.com/downloads/certificates/ffb9cc3e451a4829ac73c436e6ca32e7/Certificate.pdf]
+| [MongoDB for DBAs  https://university.mongodb.com/courses/M102/about] | MongoDB University [(10gen) https://university.mongodb.com/] | [Certificate http://education.mongodb.com/downloads/certificates/a8a0ce01d64d494c95a0f0cb4dafa3ec/Certificate.pdf]
+
+
+
+== Tourism ==
+
+- [Photos and videos http://www.flickr.com/photos/vitalyrepin/collections/72157602224858025/]
+
+
+== Misc ==
+
+- [My dot files https://gitorious.org/var-config-files/var-config-files]
+- [My github https://github.com/vitalyrepin/]
