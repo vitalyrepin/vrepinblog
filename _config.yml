@@ -4,7 +4,13 @@
 permalink: "/:title"
 relative_permalinks: true
 
+highlighter: pygments
+
 timezone: Europe/Helsinki
+
+# Tagging settings
+tag_title_prefix:   "Posts tagged #"
+tag_title_suffix:   ""
 
 # Facebook settings
 fb_admins:          606660677
