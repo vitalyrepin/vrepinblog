@@ -22,4 +22,3 @@ Several useful links if you want to make your Jekyll-based blog:
 Github repo with the sources of this blog can be found here: [https://github.com/vitalyrepin/vrepinblog](https://github.com/vitalyrepin/vrepinblog)
 
 
-{% include twitter_plug.html %}

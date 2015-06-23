@@ -46,5 +46,7 @@ github:
 
 pages_list:
   About: '/vr/about/'
-  Feed: '/vr/atom.xml'
   Hobby projects: '/vr/hobbies/'
+  Tags: '/vr/tags/'
+  Feed: '/vr/atom.xml'
+
