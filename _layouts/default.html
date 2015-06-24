@@ -32,9 +32,11 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'vitalyrepinblog';
+{% unless page.gamla_disqus_satte %}    
     var disqus_identifier = '{{ page.id }}';
     var disqus_title = '{{ page.title }}';
     var disqus_url = '{{site.url}}{{site.baseurl}}{{ page.url }}';
+{% endunless %}    
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
