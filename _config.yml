@@ -44,6 +44,10 @@ version:             1.0.0
 github:
   repo:              https://github.com/vitalyrepin/vrepinblog
 
+# Google sitemap generation
+gems:
+  - jekyll-sitemap
+
 pages_list:
   About: '/vr/about/'
   Hobby projects: '/vr/hobbies/'
