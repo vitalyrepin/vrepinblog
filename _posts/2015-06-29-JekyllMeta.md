@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll: how to add metadata to your blog or site"
+title: "Jekyll: how to add metadata to your site"
 comments: true
 summary: "How to add metadata to the Jekyll-based site: google sitemap xml, Open Graph and plain old meta-tags."
 thumbnail: /me_bike_large.jpg
