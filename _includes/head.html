@@ -3,6 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
+{% if page.summary %}
+<meta name="description" content="{{ page.summary }}">
+{% endif %}
+{%if page.tags %}
+<meta name="keywords" content="{{ page.tags | join: ', ' }}"/>
+{%endif %}
+
 <!-- Facebook tags -->
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:type" content="{% if page.website %}website{% else %}article{% endif %}">
