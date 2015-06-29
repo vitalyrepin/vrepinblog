@@ -17,6 +17,9 @@ fb_admins:          606660677
 avatar:             "/public/images/me_hires.png"
 locale:             en_US
 
+# Image settings
+image_base:          /public/images/
+
 #fb_appid:           337414769782635
 
 # Setup
