@@ -6,8 +6,6 @@ relative_permalinks: true
 
 highlighter: pygments
 
-excerpt_separator: "<!--break-->"
-
 timezone: Europe/Helsinki
 
 # Tagging settings
@@ -52,6 +50,13 @@ github:
 # Google sitemap generation
 gems:
   - jekyll-sitemap
+
+# Conversion
+markdown:    kramdown
+excerpt_separator: "<!--break-->"
+
+kramdown:
+  auto_ids: true
 
 pages_list:
   About: '/vr/about/'

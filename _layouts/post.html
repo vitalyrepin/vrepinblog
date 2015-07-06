@@ -8,6 +8,16 @@ layout: default
   {{ content | replace: '<!--break-->', '<a class="anchor" id="read-more"></a>' }}
 </div>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/1.2.1/anchor.js"></script>
+<script type="text/javascript">
+anchors.options.visible = 'hoover';
+anchors.options.placement = 'left';
+anchors.add();
+anchors.remove('.masthead-title');
+</script>
+
+
 {% include tagsforpost.html tags=page.tags %}
 
 <div class="related">

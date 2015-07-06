@@ -28,6 +28,14 @@
  */
 
 
+/* AnchorJS: http://bryanbraun.github.io/anchorjs/ */ 
+.anchorjs-link {
+  transition: all .25s linear;
+}
+*:hover > .anchorjs-link {
+  margin-left: -1.125em !important;
+}
+
 /* Render anchors: http://www.seanbuscay.com/blog/jekyll-teaser-pager-and-read-more/#fn:1 */
 a.anchor{display: block; position: relative; top: -99px; visibility: hidden;}
 
