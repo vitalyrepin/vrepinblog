@@ -14,6 +14,8 @@ The reason is that the service needs metadata for the page.
 
 I will summarize important meta tags and the ways to add them to Jekyll-based site.  If you have something to add - don't hesitate and leave your feedback in the comments, pls!
 
+<!--break-->
+
 ## Classics: HTML meta tags
 
 Meta tags *description* and *keywords* can be generated from your post YAML front matter. Add these lines to your template (*_includes/head.html* in my theme):

@@ -6,6 +6,8 @@ relative_permalinks: true
 
 highlighter: pygments
 
+excerpt_separator: "<!--break-->"
+
 timezone: Europe/Helsinki
 
 # Tagging settings

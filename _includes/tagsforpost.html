@@ -1,0 +1,20 @@
+{% comment %}
+<!-- Getting and sorting tags alphabetically -->
+{% endcomment %}
+
+{% capture mytags %}
+  {% for tag in include.tags %}
+    {{ tag }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = mytags | split:' ' | sort %}
+
+{% comment %}
+<!-- Tags output: Name + link to the page with list of all the posts with the same tag -->
+{% endcomment %}
+
+{% for tag in sortedtags %}
+<a href="{{ site.baseurl }}/tag/{{tag}}">#{{tag}}</a>
+{% endfor %}
+
+
