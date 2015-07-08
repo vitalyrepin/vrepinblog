@@ -18,8 +18,8 @@ It's pretty simple and straightforward.  Quote from my [layout](https://github.c
 {% raw %}
 var disqus_shortname = 'vitalyrepinblog';
 {% unless page.gamla_disqus_satte %}
-    var disqus_identifier = '{{ page.id }}';
-    var disqus_title = '{{ page.title }}';
+    var disqus_identifier = '{{ page.id | escape }}';
+    var disqus_title = '{{ page.title | escape }}';
     var disqus_url = '{{site.url}}{{site.baseurl}}{{ page.url }}';
 {% endunless %}
 {% endraw %}

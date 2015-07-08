@@ -12,7 +12,7 @@ The reason is that the service needs metadata for the page.
 
 > Meta data helps in a lot of ways. Sharing in social networks is just one example. Don't think that if you do not use social networks, your web site does not need meta data.
 
-I will summarize important meta tags and the ways to add them to Jekyll-based site.  If you have something to add - don't hesitate and leave your feedback in the comments, pls!
+I will summarize important meta tags and the ways to add them to Jekyll-based site.  If you have something to add &mdash; don't hesitate and leave your feedback in the comments, pls!
 
 <!--break-->
 
@@ -23,15 +23,15 @@ Meta tags *description* and *keywords* can be generated from your post YAML fron
 {% highlight liquid %}
 {% raw %}
 {% if page.summary %}
-<meta name="description" content="{{ page.summary }}">
+<meta name="description" content="{{ page.summary | escape }}">
 {% endif %}
 {%if page.tags %}
-<meta name="keywords" content="{{ page.tags | join: ', ' }}"/>
+<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
 {%endif %}
 {% endraw %}
 {% endhighlight %}
 
-If fields *tags* and *summary* are set for the page, they appear in the generated HTML meta data. Pay attention to the way *tags* are set - this is array.
+If fields *tags* and *summary* are set for the page, they appear in the generated HTML meta data. Pay attention to the way *tags* are set &mdash; it's an array.
 [Read more about tagging practices in Jekyll.]({{site.baseurl}}{% post_url 2015-06-24-Tagging %})
 
 YAML front matter example:
@@ -57,4 +57,5 @@ developed for Facebook but [it is used by variety of services](http://stackoverf
 It makes a lot of sense to add its meta tags into your web pages.
 
 An article [Integrating Facebook Open Graph Meta Tags In Jekyll](http://danyalzia.com/2015/03/25/integrating-facebook-open-graph-in-jekyll/) gives detailed instructions on integration process.
-You can also take a look into [my blog sources](https://github.com/vitalyrepin/vrepinblog/blob/master/_includes/head.html) for more examples.
+You can also take a look into [my blog sources](https://github.com/vitalyrepin/vrepinblog/blob/master/_includes/head.html) for more examples. Pay special attention to the *escape* filter which
+is needed to handle quotes properly.

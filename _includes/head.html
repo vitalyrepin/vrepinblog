@@ -4,19 +4,19 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
 {% if page.summary %}
-<meta name="description" content="{{ page.summary }}">
+<meta name="description" content="{{ page.summary | escape }}">
 {% endif %}
 {%if page.tags %}
-<meta name="keywords" content="{{ page.tags | join: ', ' }}"/>
+<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
 {%endif %}
 
 <!-- Facebook tags -->
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 <meta property="og:type" content="{% if page.website %}website{% else %}article{% endif %}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}/">
 <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.image_base | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-<meta property="og:description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
-<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 | escape }}{% endif %}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
 <meta property="og:locale" content="{{ site.locale }}">
 
 {% if page.date %}

@@ -64,3 +64,6 @@ pages_list:
   Tags: '/vr/tags/'
   Feed: '/vr/atom.xml'
 
+images:
+  lazy: true
+  root_url: 'public'
