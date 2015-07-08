@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Is ECB really enemy of the euro? More on Bagehot's rule"
-comments: trueWalter Bagehot, 
+comments: true
 summary: "Origins of Bagehot's rule for central banks and why ECB was able to ignore this rule in the last crisis in Greece"
 thumbnail: me_office.jpg
 tags: [finance, crisis]
@@ -14,7 +14,7 @@ tags: [finance, crisis]
 > Recall that the closure of Greece's banks was caused by the ECB's decision to do the opposite of what Walter Bagehot taught, which that to steam a bank run,
 > the central bank should lend against collateral that, but for the crisis, is solid. In Grece fearful people have wanted cash, but the banks have little cash left.
 > The normal course of action would be for the banks to get cash from the central bank, pledging their investments as security for the loan. But after Athens declared a referendum,
-> the ECB said no further such loans should (for now) be given).
+> the ECB said no further such loans should (for now) be given.
 
 Martin's article has a plenty of interesting and valuable comments. However, in order to see bigger picture it makes sense to examine Bagehot's rule a little bit deeper.
 
@@ -52,14 +52,22 @@ The goal of Bagehot's rule is to prevent panic. But the panic was not European. 
 
 If the situation was opposite - e.g., panic could spread from Greece to other European countries then ECB had no choice but to follow Bagehots' rule. As it was doing before!
 
-It does not mean that ECB selected right course of actions. I agree with Martin that ECB did not act as a central bank for Greece. But it was able to do so. Just because there was
+It does not mean that ECB selected right course of actions. I agree with Martin that ECB did not act as a central bank for Greece. But it was able to choose this path. Just because there was
 no market pressure.
 
 Bagehot suggested his rule in the times when Bank of England was a private company. Bank followed it not because of its public duties or legislation or any moral considerations.
 *It was following this rule because it  was for the benefit of the bank itself.* I think this is the point which shall not be missed when we are analyzing ECB behavior.
+
+Interesting question arises - is ECB acting as a central bank of EU as a whole or as a central bank of each individual country? It looks like ECB acts as a central bank for the whole EU.
+And it explains why it did what it did with Greece.
+
+Another interesting question is - how deep EU economies are integrated? I doubt if the panic of Greek caliber starts in California, Fed is forced to execute Bagehot's rule
+in order to stop the panic for spreading through US. And it was not the case with one of the European countries - Greece.
 
 [^1]: "It" refers to the Bank of England which was acting as a central bank in Bagehot's time.
 
 ## Bibliography
 
 - [Lombard Street: A Description of the Money Market.](http://www.econlib.org/library/Bagehot/bagLom.html) Walter Bagehot, 1873. Reprinted Wiley, New York 1999.
+
+{% include twitter_plug.html %}
