@@ -8,6 +8,16 @@ highlighter: pygments
 
 timezone: Europe/Helsinki
 
+# Default YAML frontmatter settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+
+
 # Tagging settings
 tag_title_prefix:   "Posts tagged #"
 tag_title_suffix:   ""
@@ -52,8 +62,11 @@ gems:
   - jekyll-sitemap
 
 # Conversion
-markdown:    kramdown
+markdown:    redcarpet
 excerpt_separator: "<!--break-->"
+
+redcarpet:
+  extensions: ["footnotes"]
 
 kramdown:
   auto_ids: true
@@ -64,6 +77,8 @@ pages_list:
   Tags: '/vr/tags/'
   Feed: '/vr/atom.xml'
 
-images:
-  lazy: true
-  root_url: 'public'
+picture:
+  source: "assets/imgs/_fullsize"
+  output: "generated"
+  markup: "picture"
+
