@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Is ECB really enemy of the euro? More on Bagehot's rule"
-comments: true
 summary: "Origins of Bagehot's rule for central banks and why ECB was able to ignore this rule in the last crisis in Greece"
 thumbnail: me_office.jpg
 tags: [finance, crisis]
@@ -17,6 +16,8 @@ tags: [finance, crisis]
 > the ECB said no further such loans should (for now) be given.
 
 Martin's article has a plenty of interesting and valuable comments. However, in order to see bigger picture it makes sense to examine Bagehot's rule a little bit deeper.
+
+<!--break-->
 
 ## What is Bagehot's rule?
 
