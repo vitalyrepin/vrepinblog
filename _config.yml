@@ -30,6 +30,9 @@ locale:             en_US
 # Image settings
 image_base:          /public/images/
 
+# Do not copy these file to the output directory
+exclude: ["transfer.sh", README.md]
+
 #fb_appid:           337414769782635
 
 # Setup
