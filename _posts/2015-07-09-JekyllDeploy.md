@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automatic deployment of your static web site to hosting  
+title: How to automatically deploy static web site to the hosting
 comments: true
 summary: This article describes the process of publishing static web site in automated way using rsync. Publishing Jekyll-generated content to hostgator hosting is used as an example.
 tags: [jekyll,blogging,hostgator,hosting]
@@ -22,6 +22,7 @@ Three approaches are dominating:
 
 + Use Jekyll-friendly web hosting. E.g., [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/). In this case you just need to push Jekyll files to the repository, server takes them and builds your web site. This approach limits the number of available hosting platforms and Jekyll features which can be used. E.g., it will not be possible to install custom plugins to Jekyll.
 + Put generated web site into git repository and sync using git. Arlo Carreon [describes this approach in detail](http://www.arlocarreon.com/blog/git/push-git-repo-into-shared-hosting-account-like-hostgator/). It's not my choice &mdash; I find it awkward to put generated files under source version control. It also introduces stupid problems &mdash; like a need to add and remove these files from a repository, put meaningless comments for commits etc.
++ Torrents and RSS feed. This is a great method to deploy static content over many servers. Requires relatively complicated setup and is typically used with VPS servers. Probably an overkill for a simple web-site like a blog.
 + Use [rsync](https://en.wikipedia.org/wiki/Rsync).  This is my choice. It's fast, straight-forward and logical. It just replicates the files from your computer to the hosting server.
 
 I will describe rsync-based solution in detail. You need to have (user, non-root) ssh access to the hosting server in order to use this approach.
@@ -84,7 +85,7 @@ exclude: ["transfer.sh", README.md]
 
 # We are done!
 
-Now it's possible to publish your web site by launching ```./transfer.sh``` script. If your ssh certificate  is [passphrase-protected](https://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html), you are asked you to enter the password.
+Now it's possible to publish your web site by launching ```./transfer.sh``` script. If your ssh certificate  is [passphrase-protected](https://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html), you are asked to enter the password.
 
 It was simple, wasn't it?
 
