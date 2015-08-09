@@ -98,7 +98,7 @@ Det hänger på en tid som du har och på dina preferenser. Det är fullkomligt 
 
 Om du vill besöka sevärdheter det är bättre att cykla på lilla ringvägen på  en dag eller cykla på den sedvanliga ringvägen i en två eller även tre dagar. Om du vill bara cykla och njuta av natur och vägen, cykla på lilla ringvägen med terrängcykel eller på verklig ringvägen med racercykel.
 
-Jag tror du ska inte vara besviken om du cykla genom skärgården ringväg &mdash; antingen lilla eller sedvanlig. Oavsett vilken rutt du väljer, är det viktigt att planera din färd. Mest viktiga plandel är färjetidtabeller. Om du felar där, kan du låsa dig på en ö utan någon möjlighet att fortsätta din färd den där dagen.
+Jag tror du ska inte vara besviken om du cykla genom skärgården ringväg &mdash; antingen lilla eller sedvanlig. Oavsett vilken rutt du väljer, är det viktigt att planera din färd. Den viktigaste plandelen är färjetidtabeller. Om du felar där, kan du låsa dig på en ö utan någon möjlighet att fortsätta din färd den där dagen.
 
 # Planering: GPS rutter, färjetidtabeller, bussar, tåg och vandrarhem
 
@@ -138,7 +138,7 @@ Matkahuolto är dyrare än Onnibus men de har aldrig vedermödor med cykel bagga
 + [Skärgårdsbokning](http://skargardsbokning.fi/?l=sv&p=majoitus)
 + [Åland boendealternativ](http://www.visitaland.com/bo-aland/)
 
-Mitt favorithotell på Åland är [Gulvivan](http://www.gullvivan.ax/) på Brändö.
+Mitt favorithotell på Åland är [Gullvivan](http://www.gullvivan.ax/) på Brändö.
 
 # Berömda sevärdheter
 
