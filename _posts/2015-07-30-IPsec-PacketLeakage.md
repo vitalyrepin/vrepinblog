@@ -8,7 +8,7 @@ tags: [vpn,firewall,ebtables,iptables,linux]
 
 # Background
 
-Several months ago I've been asked by [SEED4.ME VPN](https://seed4.me/) to investigate the package leakaging issue in their environment raised after delivering new VPN features for Apple devices.
+I've been asked by [SEED4.ME VPN](https://seed4.me/) to investigate the package leakaging issue in their environment raised after delivering new VPN features for Apple devices.
 
 We've agreed that we do want not only to solve this particular problem with Apple IPsec, but
 *to build a fence system which can completely eliminate any packet leaking problems in future caused by any bug, feature, misconfiguration etc.*
@@ -30,9 +30,9 @@ This article describes [Castle Approach](https://en.wikipedia.org/wiki/Defense_i
 1. Leaked packets are filtered by Linux firewall (netfilter iptables)
 1. If packets are not filtered by Linux firewall, they are filtered by Linux ethernet bridging firewall (netfilter ebtables). In the same time, they are logged and became visible to the monitoring system
 
-Ebtables is used as last line of defense. It has additional benefit &mdash; usually ebtables rules are simple (if they even exist!) and iptables rules can be very complex, managed with sophisticated tools etc. As a result, it's much easier to make a mistake managing iptables than ebtables [^1].
-
 <!--break-->
+
+Ebtables is used as last line of defense. It has additional benefit &mdash; usually ebtables rules are simple (if they even exist!) and iptables rules can be very complex, managed with sophisticated tools etc. As a result, it's much easier to make a mistake managing iptables than ebtables [^1].
 
 # IPsec: dropping packets without a matched policy
 
@@ -65,22 +65,15 @@ We will suppose that your network interface is called eth0.
 
 ## Step 1: Enable network bridge functionality
 
-ebtools works with network bridges. It means we need to have one. First, make sure your kernel supports network bridges. Set "networking -> 802.1d Ethernet Bridging" to either yes or module.
+ebtables works with network bridges. It means we need to have one. First, make sure your kernel supports network bridges. Set "networking -> 802.1d Ethernet Bridging" to either yes or module.
 
 
-Second, make sure you have [bridge-utils](http://sourceforge.net/projects/bridge/files/bridge/) installed. If they are not, install them. The command for Ubuntu:
-
-```
-apt-get install bridge-utils
-```
-
-Check that bridge can be created:
+Second, check that bridge device can be created:
 
 ```
-# brctl addbr br0
-# brctl show
+# ip link add name br0 type bridge
+# ifconfig br0
 ```
-``br0`` shall be shown in the output of the last command.
 
 ## Step 2: Enable ebtables filtering
 Make sure [your kernel supports ethernet bridge tables functionality](http://ebtables.netfilter.org/misc/ebtables-faq.html#quiz1).
