@@ -12,7 +12,7 @@ tags: [Android,linux]
 <img src="{{site.baseurl}}/public/images/Android11Gb-goal.png" width="50%" alt="Android 'Apps' phone screenshot" align="left" style="margin: 0px 15px">
 
 I am happy [CAT B15](http://www.catphones.com/phones/b15q-smartphone/) user. So far it's the only phone in my possession which survived more than 1 year — it is rugged and therefore
-can cope with my style of life. But last months it became almost unusable because of 'insufficient storage available' message which came out all the time.
+can cope with my lifestyle. But last months it became almost unusable because of 'insufficient storage available' message which came out all the time.
 
 The reason is simple — system updates are installed to the '/data' partition which has only 1 GB and they take around half of available space.
 I googled and found a lot of ridiculous solutions like 'install app X and it will magically solve all your problems including this', 'put all apps to the SD and you will save additional 40M' etc.
