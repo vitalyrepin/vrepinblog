@@ -8,12 +8,22 @@ summary: På skärgårdens ringväg med cykel. Rutter, planering, sevärdheter, 
 tags: [cycling,finland,skärgården]
 ---
 
-<div id="map">
+{% capture mapid %}map{{page.id | md5}}{% endcapture %}
+
+<style type="text/css">
+     #{{ mapid }} {
+     width:100%;
+     height:550px;
+     background-color: white;
+   }
+  </style>
+
+<div id="{{ mapid }}">
 
 </div>
 
 <script>
-  var map = L.map('map', {
+  var map = L.map('{{ mapid }}', {
     fullscreenControl: true
   }).setView([60.162818, 21.56339], 14);
 
