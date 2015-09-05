@@ -25,6 +25,10 @@ May be my way of fixing the problem can be helpful for other users of Caterpilla
 
 <!--break-->
 
+# Step 0: Backup everything
+
+If something goes wrong you can lose your data. Make sure to backup all the valuable content before hacking your device!
+
 # Step 1: order external SD memory card
 
 Buy the [fastest](https://www.sdcard.org/developers/overview/speed_class/) and biggest SD card available. My choice was 32 GB Kingston microSD SDHC UHS-I class 10 memory card. If you want to have
@@ -62,14 +66,9 @@ Partitioning is explained in more details [here](http://forum.xda-developers.com
 
 Reboot the phone and check that freshly created partition became visible by phone and through USB mass storage connection.
 
-# Step 5: install additional Android app: Script Manager
+# Step 5: Copy old '/data' to the new location
 
-Install [Android Script Manager](https://play.google.com/store/apps/details?id=os.tools.scriptmanager&hl=en). It allows bootup scripts to be added. We will need this application later
-but installation shall be done before step 6.
-
-# Step 6: Copy old '/data' to the new location
-
-After finishing step 5 you can transfer the data from old '/data' partition to the new one. Connect to the phone through adb again and obtain root shell.
+Now we need to transfer the data from old '/data' partition to the new one. Connect to the phone through adb again and obtain root shell.
 
 First, we need to mount new linux partition to some place, e.g:
 
@@ -88,21 +87,46 @@ Copying itself:
 # cp -rp /data/* .
 ```
 
-# Step 7: mount new '/data' during boot
+# Step 6: mount new '/data' during boot
 
-Now we need to change the mounted device  for '/data' directory. Unfortunately I have not managed to find a straight-forward way to edit '/data' mount point in 10 minutes which I had for the task
-(I will be happy to hear the proper way.  Leave your comments to this post please, I read them). So, I implemented small hack. '/data' is mounted second time during bootup process using scripting.
+Now we need to change the mounted device  for '/data' directory. Unfortunately I have not managed to find a straight-forward way to edit '/data' mount point in the timeframe I had for the task
+(I will be happy to hear the proper way.  Leave your comments to this post please, I read them). So, I implemented small hack.
 
-Follow the [instructions here](https://www.technohunk.com/2013/02/how-to-execute-a-command-at-boot-android/) to add the following bootup script to your Android:
+We will re-mount '/data' partition in the very early stage of [Android bootup process](https://community.freescale.com/docs/DOC-102546) — before zygote is started.
+
+So, launch adb and obtain a root shell again.
+
+First, remount '/system' in read-write mode:
+
+```
+# mount -o remount,rw /system
+```
+
+Rename vold (Android Volume daemon) binary:
+
+```
+# cd /system/bin
+# mv vold vold_bin
+```
+
+Create script ```/system/bin/vold``` which mounts '/data' again and calls ```vold_bin```:
 
 ```
 #!/system/bin/sh
 
 mount -t ext4 /dev/block/mmcblk1p2 /data
 
+/system/bin/vold_bin
+
 ```
 
-Don't forget to set 'Boot' and 'Su' permissions for this script.
+*Make sure it has exactly the same permissions () and ownership as original vold binary!* Output in my system:
+
+```
+# ls -l vold vold_bin
+-rwxr-xr-x root     shell          82 2015-09-05 09:52 vold
+-rwxr-xr-x root     shell       91776 2013-03-15 10:16 vold_bin
+```
 
 # It's done!
 
