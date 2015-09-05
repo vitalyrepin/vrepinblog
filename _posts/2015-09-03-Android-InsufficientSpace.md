@@ -120,7 +120,7 @@ mount -t ext4 /dev/block/mmcblk1p2 /data
 
 ```
 
-*Make sure it has exactly the same permissions () and ownership as original vold binary!* Output in my system:
+*Make sure it has exactly the same permissions and ownership as original vold binary!* Output in my system:
 
 ```
 # ls -l vold vold_bin
