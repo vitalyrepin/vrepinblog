@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Tour de Helsinki 2015. Nybörjares intryck från cykelloppet
-thumbnail: TurkuArchipelago.png
+thumbnail: TourDeHelsinki.png
 comments: true
 geomap: true
-summary: Tour de Helsinki 2015. Delatagares notiser.
+summary: Tour de Helsinki 2015. En delatagares notiser.
 tags: [cycling,finland]
 ---
 
@@ -94,18 +94,18 @@ Söndagen den 30 augusti 2015 var tävlingsdagen. På lördagen kom jag till Hel
 och sluttid) och en informationsbroschyr.
 
 På söndagen fanns där en stor skara cyklister.
-Varje grupp hade en flagga med gruppens fart — från 20 till 45. Jag och min kompis ställde oss till grupp 30 (vi är optimister!).
+Varje grupp hade en flagga med gruppens fart — från 20 till 45. Jag och min kompis ställde oss i grupp 30 (vi är optimister!).
 
 Kl. 11 startade vi. De första 10 km for över Helsingfors gator (stängda för övrig trafik) i maklig takt. Själva loppet började vid Alberga i Esbo.
 
-Jag förstod snabbt jag inte kan cykla med gruppen 30 (km/h) och sökte mig till gruppen 28. Det fanns 4 servicepunkter ("huoltopiste" på finska) där man fick paus, dricka vatten eller saft
+Jag förstod snabbt jag inte kan cykla med gruppen 30 (km/h) och sökte mig till gruppen 28. Det fanns 4 servicepunkter ("huoltopiste" på finska) där man fick en paus, dricka vatten eller saft
 och äta russin,  bananer,  bröd samt  ättiksgurkor. De övriga befann sig på olika avstånd från starten — 39.7 km, 63.8 km, 95.9 km samt 117.8 km. Min grupp stannade inte i den första servicepunkten
 och jag tog mat och dryck i den andra punkten (63.8 km) för första gången.
 
 Då vi cyklade förbi första servicepunkten såg vi [allvarligt olycksfallet](http://svenska.yle.fi/artikel/2015/08/31/borgacyklist-skadades-allvarligt-i-tour-de-helsinki). Polisen och läkare
 var där och gav första hjälpen.
 
-För det mesta var vädret soligt med undantag en korta åskskur och regn. Då det regnade fick min cykel punktering och jag måste byta en innerslang. Resultatet blev jag lämnade  gruppen 28
+För det mesta var vädret soligt med undantag för både en kort åskskur och regn. Då det regnade fick min cykel punktering och jag måste byta en innerslang. Resultatet blev jag lämnade  gruppen 28
 och fortsatte separat.
 
 Övervägande cyklade jag ensam men när var jag ungefär 1.5 kilometer från målet hörde jag ljud från grupp 22. Jag snabbade takten och lämnade dem bakom ryggen.
