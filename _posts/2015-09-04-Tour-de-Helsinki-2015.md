@@ -102,7 +102,7 @@ Jag förstod snabbt jag inte kan cykla med gruppen 30 (km/h) och sökte mig till
 och äta russin,  bananer,  bröd samt  ättiksgurkor. De övriga befann sig på olika avstånd från starten — 39.7 km, 63.8 km, 95.9 km samt 117.8 km. Min grupp stannade inte i den första servicepunkten
 och jag tog mat och dryck i den andra punkten (63.8 km) för första gången.
 
-Då vi cyklade förbi första servicepunkten såg vi [allvarligt olycksfallet](http://svenska.yle.fi/artikel/2015/08/31/borgacyklist-skadades-allvarligt-i-tour-de-helsinki). Polisen och läkare
+Då vi cyklade förbi den första servicepunkten såg vi ett [allvarligt olycksfall](http://svenska.yle.fi/artikel/2015/08/31/borgacyklist-skadades-allvarligt-i-tour-de-helsinki). Polisen och läkare
 var där och gav första hjälpen.
 
 För det mesta var vädret soligt med undantag för både en kort åskskur och regn. Då det regnade fick min cykel punktering och jag måste byta en innerslang. Resultatet blev jag lämnade  gruppen 28
