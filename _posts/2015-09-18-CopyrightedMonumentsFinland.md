@@ -48,7 +48,7 @@ Quoting [Wikipedia article on the matter](https://en.wikipedia.org/wiki/Freedom_
 > copyright that may otherwise subsist in such works, and to publishing such images. It is an exception to the normal rule that the copyright owner has the exclusive right to
 > authorize the creation and distribution of derivative works.
 
-The image below is taken from Swedish Wikipedia and its shows the status of this Freedom in different countries:
+The image below shows the status of this Freedom in different countries:
 
 <a title="By Mardus [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AFreedom_of_Panorama_world_map.png"><img width="100%" alt="Freedom of Panorama world map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Freedom_of_Panorama_world_map.png/512px-Freedom_of_Panorama_world_map.png"/></a>
 
@@ -78,6 +78,9 @@ Status of non-free content for different wikis is summarized [here](https://meta
 > Non-free images or music samples are allowed if 1) they are not replaceable by free content considering the purpose which they are serving in the article and
 > 2) they are used in accordance with the quotation right of the Finnish copyright law. Historically significant non-free images are forbidden, as they could be replaced.
 > Also non-free images of living people are forbidden.
+
+In in doubt, you can always ask your question in the [Finnish Wikipedia discussion page](https://fi.wikipedia.org/wiki/Keskustelu_Wikipediasta:Lähetystö). Finnish Wikipedia community
+is very friendly.
 
 ## How?
 
@@ -137,12 +140,12 @@ of the current system:
 
 - Less visibility of the Finnish works of art in Wikipedia
 - Complexities with promotion of Finnish cultural heritage through  campaigns like ["Wiki Loves Monuments"](http://www.wikilovesmonuments.org/)
-or ["Wiki Loves Public Art"](https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Public_Art_2013). The scope of such campaigns shall be limited to non-copyrighted monuments and buildings
+or ["Wiki Loves Public Art"](https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Public_Art_2013). The scope of such campaigns in Finland shall be limited to non-copyrighted monuments and buildings
 
 I personally much more like the legislation in our neighboring country of Sweden where sculptures and 3D art are covered by Freedom of Panorama.
 May be it's something for [Finnish Pirate Party](https://en.wikipedia.org/wiki/Pirate_Party_of_Finland) and
 [SFP/RKP](https://en.wikipedia.org/wiki/Swedish_People's_Party_of_Finland) to look into? It's not always a bad idea to copy Swedish
-ways of doing things to Finland :-)
+ways of doing things to Finland ([with pride](http://www.engadget.com/2007/08/29/nokias-iphone-no-seriously/), of course!) :-)
 
 P.S. It's pity I didn't know about this problem while preparing [Stallman's course about the free digital society](http://digitalfree.info/). This is a really good example of copyright in action
 in the modern world.
