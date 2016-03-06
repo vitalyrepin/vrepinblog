@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to automatically deploy static web site to the hosting
+lang: en
 comments: true
 summary: This article describes the process of publishing static web site in automated way using rsync. Publishing Jekyll-generated content to hostgator hosting is used as an example.
 tags: [jekyll,blogging,hostgator,hosting]

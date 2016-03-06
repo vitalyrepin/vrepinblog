@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Copyrighted monuments in Finland. Why Finnish works of art are not widely represented in Wikipedia"
+lang: en
 comments: true
 thumbnail: Tapio_Rautavaara.jpg
 summary: Status of the Panorama Freedom in Finland. How to contribute photos of Finnish monuments to Wikipedia, practical guide. If current legislation lowers visibility of Finnish sculptural art, why not to change it?

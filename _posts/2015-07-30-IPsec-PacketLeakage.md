@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[ipsec, iptables, ebtables] How to avoid leakage of packets addressed to/from private IP space"
+lang: en
 comments: true
 summary: "This article describes Castle Approach to filtering IP packets addressed to/from private IP space. iptables and ebtables firewall tools are used. Keywords: ipsec, BCP38, iptables, ebtables, linux"
 tags: [vpn,firewall,ebtables,iptables,linux]

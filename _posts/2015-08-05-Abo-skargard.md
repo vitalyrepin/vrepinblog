@@ -3,9 +3,10 @@ layout: post
 title: "Åbo omnejd. Skärgårdens ringväg med cykel / Saariston Rengastie"
 thumbnail: TurkuArchipelago.png
 comments: true
+lang: sv
 geomap: true
 summary: På skärgårdens ringväg med cykel. Rutter, planering, sevärdheter, foton. Vänta inte, njut av naturliga och kulturella skönheter nu!
-tags: [cycling,finland,skärgården]
+tags: [cycling,Finland,skärgården]
 ---
 
 {% capture mapid %}map{{page.id | md5}}{% endcapture %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Is ECB really enemy of the euro? More on Bagehot's rule"
+lang: en
 summary: "Origins of Bagehot's rule for central banks and why ECB was able to ignore this rule in the last crisis in Greece"
 thumbnail: me_office.jpg
 tags: [finance, crisis]

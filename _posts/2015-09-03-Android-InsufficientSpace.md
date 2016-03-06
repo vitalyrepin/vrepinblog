@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Fixing annoying Android's 'insufficient storage available' issue"
+lang: en
 comments: true
 thumbnail: Android11Gb.png
 summary: "Fixing 'insufficient storage' issue by utilizing external SD card, rooted image and fdisk/mkfs/mount. Describes procedure for CAT B15 phone but can be used with other Android phones as well"
-tags: [Android,linux]
+tags: [android,linux]
 ---
 
 # The root of all evil: ridiculously small amount of free space in '/data' partition

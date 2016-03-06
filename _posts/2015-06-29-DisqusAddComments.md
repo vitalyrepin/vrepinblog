@@ -2,6 +2,7 @@
 layout: post
 title: "Blog comments = Disqus + Jekyll"
 comments: true
+lang: en
 summary: How to add Disqus comments to you Jekyll blog. Useful disqus variables.
 tags: [disqus,jekyll,blogging]
 ---

@@ -2,10 +2,11 @@
 layout: post
 title: Tour de Helsinki 2015. Nybörjares intryck från cykelloppet
 thumbnail: TourDeHelsinki.png
+lang: sv
 comments: true
 geomap: true
 summary: Tour de Helsinki 2015. En delatagares notiser.
-tags: [cycling,finland]
+tags: [cycling,Finland]
 ---
 
 # Tour de Helsinki — mitt första cykellopp
