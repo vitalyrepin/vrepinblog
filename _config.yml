@@ -1,8 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: "/:title"
-relative_permalinks: true
+permalink: "/:title/"
 
 highlighter: pygments
 
@@ -16,7 +15,6 @@ defaults:
       type: "posts"
     values:
       comments: true
-
 
 # Tagging settings
 tag_title_prefix:   "Posts tagged #"
@@ -39,8 +37,10 @@ exclude: ["transfer.sh", README.md]
 title:               Vitaly Repin
 tagline:             Sapere aude!
 url:                 "http://vrepin.org"
-paginate:            4
+paginate_l:           4
 baseurl:             "/vr"
+
+paginate_langs:      ["en", "sv", "ru"]
 
 # Assets
 #
@@ -63,6 +63,7 @@ github:
 # Google sitemap generation
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Conversion
 markdown:    redcarpet
@@ -81,7 +82,16 @@ pages_list:
   Feed: '/vr/atom.xml'
 
 picture:
-  source: "assets/imgs/_fullsize"
+  source: "_assets/imgs/_fullsize"
   output: "generated"
   markup: "picture"
-
+  presets:
+    default:
+      ppi: [1, 1.5, 2]
+      source_medium:
+        media: "(min-width: 40em)"
+        width: "640"
+      source_small:
+        height: "100"
+      source_default:
+        width: "640"

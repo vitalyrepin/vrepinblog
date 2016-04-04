@@ -3,8 +3,8 @@ layout: post
 title: Jekyll is cool
 comments: true
 summary: Impressed by Jekyll.  It was surprisely easy to switch from txt2site to Jekyll.
-gamla_disqus_satte: true
 lang: en
+gamla_disqus_satte: true
 tags: [jekyll,blogging]
 ---
 
