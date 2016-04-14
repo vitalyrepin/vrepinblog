@@ -9,7 +9,7 @@ tags: [FSF,freesoftware,Stallman]
 ---
 
 
-If you are interested in launching your own instance of the Stallman's course "On the Road to the Free Digital Society", I have good news for you.
+If you are interested in launching your own instance of the Stallman's course ["On the Road to the Free Digital Society"](http://digitalfree.info/FreeDigitalSociety/), I have good news for you.
 I have published the course in Moodle Backup and IMS Common Cartridge formats.
 
 The files are available in the ["Download" section](http://digitalfree.info/FreeDigitalSociety/downloads/index.html) of the course website.
