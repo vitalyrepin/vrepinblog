@@ -39,20 +39,20 @@ We will use [ruby filter](https://www.elastic.co/guide/en/logstash/current/plugi
 {% highlight ruby %}
 filter {
     # <...> <- More filters are above
-    # Launching external script to make a deeper text analysis
+    # Launching external script to make a deeper analysis
     if [file_path] =~ /.+/ {
        ruby {
-          code => 'require "open3"
-                   body_path = event["file_path"]
-                   cmd =  "/opt/bin/my_filter.py -f #{file_path}"
-                   stdin, stdout, stderr = Open3.popen3(cmd)
-                   event["process_result"] = stdout.read
-                   err = stderr.read
-                   if err.to_s.empty?
-                     filter_matched(event)
-                   else
-                     event["ext_script_err_msg"] = err
-                   end'
+        code => 'require "open3"
+                 file_path = event.get("file_path")
+                 cmd =  "/opt/bin/my_filter.py -f #{file_path}"
+                 stdin, stdout, stderr = Open3.popen3(cmd)
+                 event.set("process_result", stdout.read)
+                 err = stderr.read
+                 if err.to_s.empty?
+                   filter_matched(event)
+                 else
+                   event.set("ext_script_err_msg", err)
+                 end'
           remove_field => ["file_path"]
        }
     }
@@ -67,6 +67,7 @@ the command line to launch external filter.
 + stdin handle is accessible for our tiny ruby script and it can be used to send more data to the external program (```/opt/bin/my_filter.py```).
 + If application stderr is not empty, filter is not considered to be successful and stderr content is recorded into ```ext_script_err_msg``` field.
 + If processing was successful,  output of the external program is recorded into ```process_result``` filed and ```file_path``` field is removed
++ This config has been tested with logstash 5.3.0.
 
 ### Parsing output of the external program (JSON)
 
